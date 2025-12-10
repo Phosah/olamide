@@ -25,13 +25,13 @@
               Business Analysis Student | Finance Professional
             </p>
             <div class="flex flex-wrap gap-3 justify-center md:justify-start">
-              <span class="px-4 py-2 bg-blue-600 text-white rounded-full text-sm">
+              <span class="px-4 py-2 bg-blue-600 text-white-100 rounded-full text-sm">
                 Business Analysis
               </span>
-              <span class="px-4 py-2 bg-yellow-500 text-white rounded-full text-sm">
+              <span class="px-4 py-2 bg-yellow-500 text-white-100 rounded-full text-sm">
                 Financial Reporting
               </span>
-              <span class="px-4 py-2 bg-green-600 text-white rounded-full text-sm">
+              <span class="px-4 py-2 bg-green-600 text-white-100 rounded-full text-sm">
                 Process Improvement
               </span>
             </div>
@@ -127,19 +127,19 @@
       </div>
   
       <!-- Contact CTA -->
-      <div class="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-8 text-center text-white">
+      <div class="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-8 text-center text-white-100">
         <h2 class="text-2xl font-bold mb-4">Let's Connect</h2>
         <p class="mb-6 text-lg">Interested in working together or learning more about my experience?</p>
         <div class="flex flex-wrap gap-4 justify-center">
           <a 
             href="mailto:Olamide.Dada@georgebrown.ca" 
-            class="px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-all"
+            class="px-6 py-3 bg-white-100 text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-all"
           >
             Email Me
           </a>
           <RouterLink 
             to="/resume" 
-            class="px-6 py-3 bg-yellow-500 text-white rounded-lg font-semibold hover:bg-yellow-600 transition-all"
+            class="px-6 py-3 bg-yellow-500 text-white-100 rounded-lg font-semibold hover:bg-yellow-600 transition-all"
           >
             View Resume
           </RouterLink>

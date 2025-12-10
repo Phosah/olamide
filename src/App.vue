@@ -5,7 +5,7 @@
   </script>
   
   <template>
-    <div class="flex flex-col min-h-screen p-3">
+    <div class="flex flex-col min-h-screen p-3 font-workSans">
       <MainNavbar />
   
       <!-- Main content grows to fill the available space -->

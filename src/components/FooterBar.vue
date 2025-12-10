@@ -3,24 +3,24 @@
     class="flex flex-col sm:flex-row space-y-3 items-center justify-between py-4"
   >
     <section class="flex space-x-4">
-      <div class="inline-block p-2 bg-blue-100 rounded-full">
+      <!-- <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="Instagram" alt="Instagram" class="h-4 w-4" />
-      </div>
+      </div> -->
 
-      <div class="inline-block p-2 bg-blue-100 rounded-full">
+      <!-- <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="X" alt="X" class="h-4 w-4" />
-      </div>
+      </div> -->
 
-      <div class="inline-block p-2 bg-blue-100 rounded-full">
+      <!-- <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="Behance" alt="Behance" class="h-4 w-4" />
-      </div>
+      </div> -->
 
       <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="LinkedIn" alt="LinkedIn" class="h-4 w-4" />
       </div>
 
       <div class="inline-block p-2 bg-blue-100 rounded-full">
-        <img :src="Gmail" alt="Gmail" class="h-4 w-4" />
+        <img :src="Gmail" alt="Gmail" class="h-4 w-6" />
       </div>
     </section>
 

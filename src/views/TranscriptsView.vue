@@ -9,7 +9,7 @@
       </div>
   
       <!-- Notice -->
-      <div class="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8 rounded-lg">
+      <!-- <div class="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8 rounded-lg">
         <div class="flex items-start space-x-3">
           <svg class="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -22,7 +22,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
   
       <!-- Transcript Cards -->
       <div class="space-y-8">
@@ -77,17 +77,17 @@
                 </div>
               </div>
   
-              <div class="flex flex-wrap gap-3">
+              <!-- <div class="flex flex-wrap gap-3">
                 <button 
                   @click="requestTranscript('GBC')"
-                  class="px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all"
+                  class="px-6 py-2 bg-blue-600 text-white-100 rounded-lg font-semibold hover:bg-blue-700 transition-all"
                 >
                   Request Official Transcript
                 </button>
                 <button class="px-6 py-2 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-all">
                   View Course List
                 </button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -167,24 +167,24 @@
                 </div>
               </div>
   
-              <div class="flex flex-wrap gap-3">
+              <!-- <div class="flex flex-wrap gap-3">
                 <button 
                   @click="requestTranscript('OAU')"
-                  class="px-6 py-2 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-all"
+                  class="px-6 py-2 bg-green-600 text-white-100 rounded-lg font-semibold hover:bg-green-700 transition-all"
                 >
                   Request Official Transcript
                 </button>
                 <button class="px-6 py-2 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-all">
                   View Full Course List
                 </button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
       </div>
   
       <!-- Verification Information -->
-      <div class="mt-12 bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg p-8 text-white">
+      <!-- <div class="mt-12 bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg p-8 text-white-100">
         <h2 class="text-2xl font-bold mb-6">Transcript Verification</h2>
         <div class="grid md:grid-cols-2 gap-8">
           <div>
@@ -219,13 +219,13 @@
             <div class="space-y-3">
               <div>
                 <p class="text-sm text-gray-400 mb-1">Email</p>
-                <a href="mailto:Olamide.Dada@georgebrown.ca" class="text-white hover:text-blue-300">
+                <a href="mailto:Olamide.Dada@georgebrown.ca" class="text-white-100 hover:text-blue-300">
                   Olamide.Dada@georgebrown.ca
                 </a>
               </div>
               <div>
                 <p class="text-sm text-gray-400 mb-1">Phone</p>
-                <a href="tel:+14383476556" class="text-white hover:text-blue-300">
+                <a href="tel:+14383476556" class="text-white-100 hover:text-blue-300">
                   +1 (438) 347-6556
                 </a>
               </div>
@@ -235,7 +235,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </template>
   

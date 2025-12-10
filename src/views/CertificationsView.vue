@@ -236,12 +236,12 @@
       </div>
   
       <!-- Download Certificates CTA -->
-      <div class="mt-8 text-center bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-8 text-white">
+      <div class="mt-8 text-center bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-8 text-white-100">
         <h3 class="text-2xl font-bold mb-4">View Certificate Documents</h3>
         <p class="mb-6">Official certification documents available for verification</p>
         <RouterLink 
           to="/transcripts" 
-          class="inline-block px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-all"
+          class="inline-block px-6 py-3 bg-white-100 text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-all"
         >
           View All Documents
         </RouterLink>

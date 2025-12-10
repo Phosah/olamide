@@ -33,12 +33,11 @@
         </div>
       </ul>
   
-      <a
-        href="mailto:Olamide.Dada@georgebrown.ca"
-        class="md:w-48 px-4 py-2 text-center bg-black-200 text-white-100 rounded-md cursor-pointer hover:bg-yellow-500 hover:text-black transition-all"
-      >
-        Hire me
-      </a>
+      <RouterLink
+        to="/contact"
+        class="md:w-48 px-4 py-2 text-center bg-black-200 text-white-100 rounded-md cursor-pointer hover:bg-yellow-500 hover:text-black transition-all">
+        Hire Me
+    </RouterLink>
     </nav>
   </template>
   

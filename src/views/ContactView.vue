@@ -11,7 +11,7 @@
       <div class="grid md:grid-cols-2 gap-8">
         <!-- Contact Information -->
         <div class="space-y-6">
-          <div class="bg-white rounded-lg shadow-lg p-8">
+          <div class="bg-white-100 rounded-lg shadow-lg p-8">
             <h2 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h2>
             
             <!-- Email -->
@@ -62,13 +62,13 @@
           </div>
   
           <!-- Social Links / Resume Download -->
-          <div class="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg shadow-lg p-8 text-white">
+          <!-- <div class="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg shadow-lg p-8 text-white-100">
             <h2 class="text-2xl font-bold mb-6">Quick Actions</h2>
             <div class="space-y-4">
               <a 
                 href="/path-to-resume.pdf" 
                 download
-                class="flex items-center space-x-3 bg-white text-blue-600 rounded-lg p-4 hover:bg-gray-100 transition-all"
+                class="flex items-center space-x-3 bg-white-100 text-blue-600 rounded-lg p-4 hover:bg-gray-100 transition-all"
               >
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
@@ -77,7 +77,7 @@
               </a>
               <RouterLink 
                 to="/resume"
-                class="flex items-center space-x-3 bg-white text-blue-600 rounded-lg p-4 hover:bg-gray-100 transition-all"
+                class="flex items-center space-x-3 bg-white-100 text-blue-600 rounded-lg p-4 hover:bg-gray-100 transition-all"
               >
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
@@ -87,7 +87,7 @@
               <a 
                 href="https://www.linkedin.com/in/yourprofile" 
                 target="_blank"
-                class="flex items-center space-x-3 bg-white text-blue-600 rounded-lg p-4 hover:bg-gray-100 transition-all"
+                class="flex items-center space-x-3 bg-white-100 text-blue-600 rounded-lg p-4 hover:bg-gray-100 transition-all"
               >
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
@@ -95,7 +95,7 @@
                 <span class="font-semibold">LinkedIn Profile</span>
               </a>
             </div>
-          </div>
+          </div> -->
   
           <!-- Availability -->
           <div class="bg-green-50 rounded-lg shadow-lg p-8 border-2 border-green-200">
@@ -110,7 +110,7 @@
         </div>
   
         <!-- Contact Form -->
-        <div class="bg-white rounded-lg shadow-lg p-8">
+        <div class="bg-white-100 rounded-lg shadow-lg p-8">
           <h2 class="text-2xl font-bold text-gray-800 mb-6">Send Me a Message</h2>
           <form @submit.prevent="handleSubmit" class="space-y-6">
             <!-- Name -->
@@ -176,7 +176,7 @@
             <!-- Submit Button -->
             <button
               type="submit"
-              class="w-full px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl"
+              class="w-full px-6 py-3 bg-blue-600 text-white-100 rounded-lg font-semibold hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl"
             >
               Send Message
             </button>
@@ -196,7 +196,7 @@
       </div>
   
       <!-- FAQ Section -->
-      <div class="mt-12 bg-gray-50 rounded-lg p-8">
+      <!-- <div class="mt-12 bg-gray-50 rounded-lg p-8">
         <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Frequently Asked Questions</h2>
         <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           <div>
@@ -228,7 +228,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </template>
   

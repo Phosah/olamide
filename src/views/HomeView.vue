@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen">
     <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-blue-600 via-blue-700 to-purple-800 text-white py-20 px-4 rounded-lg mb-8">
+    <section class="bg-[#98DAE5] text-white-100 py-20 px-4 rounded-lg mb-8">
       <div class="max-w-6xl mx-auto">
         <div class="flex flex-col md:flex-row items-center gap-12">
           <!-- Profile Image -->
@@ -20,23 +20,23 @@
             <h1 class="text-5xl md:text-6xl font-bold mb-4 leading-tight">
               Olamide Dada Victoria
             </h1>
-            <p class="text-2xl md:text-3xl font-light mb-6 text-blue-100">
+            <p class="text-2xl md:text-3xl font-light mb-6 text-gray-600">
               Business Analyst | Finance Professional
             </p>
-            <p class="text-lg md:text-xl mb-8 text-blue-50 leading-relaxed max-w-2xl">
+            <p class="text-lg md:text-xl mb-8 text-white-100 font-medium leading-relaxed max-w-2xl">
               Bridging business analysis and finance to drive data-informed solutions, 
               optimize processes, and deliver organizational value.
             </p>
             <div class="flex flex-wrap gap-4 justify-center md:justify-start">
               <RouterLink 
                 to="/resume" 
-                class="px-8 py-4 bg-white text-blue-700 rounded-lg font-semibold hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl"
+                class="px-8 py-4 bg-gray-700 text-white-100 rounded-lg font-semibold hover:bg-blue-50 transition-all shadow-xl hover:shadow-xl hover:text-gray-500"
               >
                 View Resume
               </RouterLink>
               <RouterLink 
                 to="/contact" 
-                class="px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-blue-700 transition-all"
+                class="px-8 py-4 bg-transparent border-2 border-gray-100 text-gray-100 rounded-lg font-semibold hover:bg-white-100 hover:text-gray-500 transition-all"
               >
                 Get In Touch
               </RouterLink>
@@ -48,23 +48,23 @@
 
     <!-- Quick Stats -->
     <section class="max-w-6xl mx-auto mb-12 px-4">
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
+      <div class="grid grid-cols-2 md:grid-cols-2 gap-4">
+        <!-- <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
           <div class="text-4xl font-bold text-blue-600 mb-2">98%</div>
           <div class="text-gray-600 text-sm">Payroll Accuracy</div>
         </div>
         <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
           <div class="text-4xl font-bold text-green-600 mb-2">250+</div>
           <div class="text-gray-600 text-sm">Employees Managed</div>
-        </div>
-        <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
+        </div> -->
+        <!-- <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
           <div class="text-4xl font-bold text-purple-600 mb-2">30%</div>
           <div class="text-gray-600 text-sm">Process Improvement</div>
         </div>
         <div class="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
           <div class="text-4xl font-bold text-yellow-600 mb-2">2+</div>
           <div class="text-gray-600 text-sm">Certifications</div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -115,7 +115,7 @@
 
     <!-- Skills Overview -->
     <section class="max-w-6xl mx-auto mb-12 px-4">
-      <div class="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg p-8 md:p-12 text-white">
+      <div class="bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg p-8 md:p-12 text-white-100">
         <h2 class="text-3xl font-bold mb-8 text-center">Core Competencies</h2>
         <div class="grid md:grid-cols-2 gap-8">
           <div>
@@ -241,7 +241,7 @@
               </div>
               <div>
                 <h3 class="font-bold text-gray-800">ICAN Certifications</h3>
-                <p class="text-sm text-gray-600">AAT (2021) • ACA (In View)</p>
+                <p class="text-sm text-gray-600">AAT (2021) • ACA </p>
               </div>
             </div>
             <span class="inline-block px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">
@@ -252,7 +252,7 @@
         <div class="text-center mt-6">
           <RouterLink 
             to="/education" 
-            class="inline-block px-6 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-700 transition-all"
+            class="inline-block px-6 py-3 bg-purple-600 text-white-100 rounded-lg font-semibold hover:bg-purple-700 transition-all"
           >
             View Full Education History
           </RouterLink>
@@ -261,8 +261,8 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="max-w-6xl mx-auto mb-8 px-4">
-      <div class="bg-gradient-to-r from-blue-600 to-purple-700 rounded-lg p-12 text-center text-white">
+    <!-- <section class="max-w-6xl mx-auto mb-8 px-4">
+      <div class="bg-gradient-to-r from-blue-600 to-purple-700 rounded-lg p-12 text-center text-white-100">
         <h2 class="text-3xl font-bold mb-4">Ready to Work Together?</h2>
         <p class="text-xl mb-8 text-blue-100">
           Let's discuss how I can contribute to your organization's success
@@ -277,19 +277,19 @@
           <a 
             href="/path-to-resume.pdf" 
             download
-            class="px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-blue-700 transition-all"
+            class="px-8 py-4 bg-transparent border-2 border-white text-white-100 rounded-lg font-semibold hover:bg-white hover:text-blue-700 transition-all"
           >
             Download Resume
           </a>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import Olamide from '@/assets/olamide.jpeg';
+import Olamide from '@/assets/olamide-1.jpeg';
 
 const showInitials = ref(false)
 </script>

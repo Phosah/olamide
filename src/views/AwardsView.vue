@@ -248,7 +248,7 @@
       </section>
   
       <!-- Future Goals -->
-      <div class="bg-gradient-to-r from-blue-600 to-purple-700 rounded-lg p-8 text-center text-white">
+      <!-- <div class="bg-gradient-to-r from-blue-600 to-purple-700 rounded-lg p-8 text-center text-white">
         <h2 class="text-2xl font-bold mb-4">Continuing the Journey</h2>
         <p class="text-lg text-blue-100 mb-6 max-w-2xl mx-auto">
           These achievements represent milestones in my ongoing commitment to professional excellence and 
@@ -260,7 +260,7 @@
         >
           Let's Connect
         </RouterLink>
-      </div>
+      </div> -->
     </div>
   </template>
   

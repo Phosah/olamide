@@ -32,9 +32,10 @@ export default {
         },
       },
       fontFamily: {
-        dm: ["DM Serif Display", "serif"],
-        quicksand: ["Quicksand", "sans-serif"],
+        workSans: ["Work Sans", "sans-serif"],
+        // quicksand: ["Quicksand", "sans-serif"],
       },
+      
     },
   },
   plugins: [],

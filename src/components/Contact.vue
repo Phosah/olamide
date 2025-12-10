@@ -2,7 +2,7 @@
   <section
     class="flex flex-col items-center my-12 bg-blue-300 py-8 px-4 rounded-md"
   >
-    <div class="font-dm mb-10 text-3xl text-center text-black-100">
+    <div class="font-workSans mb-10 text-3xl text-center text-black-100">
       <p>Wanna work together?</p>
 
       <p>Let’s create something meaningful</p>
