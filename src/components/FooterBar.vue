@@ -1,8 +1,8 @@
 <template>
   <footer
-    class="flex flex-col sm:flex-row space-y-3 items-center justify-between py-4"
+    class="text-center mx-auto space-y-3 items-center justify-between py-4"
   >
-    <section class="flex space-x-4">
+    <section class="flex mx-auto justify-center space-x-4">
       <!-- <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="Instagram" alt="Instagram" class="h-4 w-4" />
       </div> -->
@@ -19,12 +19,12 @@
         <img :src="LinkedIn" alt="LinkedIn" class="h-4 w-4" />
       </div>
 
-      <div class="inline-block p-2 bg-blue-100 rounded-full">
+      <!-- <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="Gmail" alt="Gmail" class="h-4 w-6" />
-      </div>
+      </div> -->
     </section>
 
-    <p class="text-xs text-black-300 font-quicksand">Olamide Dada, 2025</p>
+    <p class="text-xs text-black-300 font-quicksand">&copy; Olamide Dada, 2025</p>
 
     <!-- This two components are different icons but show only the same Gmail icon. To fix -->
     <!-- <div>
