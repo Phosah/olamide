@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen">
     <!-- Hero Section -->
-    <section class="text-white-100 py-20 px-4 rounded-lg mb-8">
+    <section class="bg-gradient-to-r from-blue-100 to-blue-300 text-white-100 py-20 px-4 rounded-lg mb-8">
       <div class="max-w-6xl mx-auto">
         <div class="flex flex-col md:flex-row items-center gap-12">
           <!-- Profile Image -->
