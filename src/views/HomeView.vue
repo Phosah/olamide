@@ -115,48 +115,49 @@
 
     <!-- Skills Overview -->
     <section class="max-w-6xl mx-auto mb-12 px-4">
-      <div class=" rounded-lg p-8 md:p-12 text-white-100">
+      <div class=" rounded-lg px-4 md:p-8 md:p-12 text-white-100">
         <h2 class="text-3xl text-gray-800 font-bold mb-8 text-center">Core Competencies</h2>
         <!-- <div class="grid md:grid-cols-2 gap-8"> -->
-        <div class="flex w-full px-10 items-start justify-between">
+        <div class="flex w-full md:px-10 items-start justify-between text-sm md:text-base">
           <div>
-            <h3 class="text-xl font-semibold mb-4 text-blue-500">Business Analysis</h3>
+            <h3 class="text-xl font-semibold mb-4 mr-2 text-blue-500">Business Analysis</h3>
             <div class="space-y-3">
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="flex-shrink-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                 <span class="text-[#111021]">Agile/Scrum Methodologies</span>
               </div>
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="flex-shrink-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                 <span class="text-[#111021]">Requirements Elicitation</span>
               </div>
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="flex-shrink-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                 <span class="text-[#111021]">Process Modeling (BPMN)</span>
               </div>
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="flex-shrink-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                 <span class="text-[#111021]">UAT & Testing</span>
               </div>
             </div>
           </div>
+
           <div>
             <h3 class="text-xl font-semibold mb-4 text-blue-500">Technical Tools</h3>
             <div class="space-y-3 text-[#111021]">
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="flex-shrink-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                 <span>Jira & Confluence</span>
               </div>
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="flex-shrink-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                 <span>MS Visio & Miro</span>
               </div>
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="flex-shrink-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                 <span>Salesforce, Dynamics 365</span>
               </div>
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="flex-shrink-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                 <span>Excel & QuickBooks</span>
               </div>
             </div>
