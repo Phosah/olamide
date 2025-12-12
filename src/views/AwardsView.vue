@@ -11,11 +11,11 @@
       <!-- Academic Honors -->
       <section class="mb-12">
         <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-          <span class="w-2 h-8 bg-blue-600 mr-3"></span>
+          <span class="w-1 h-8 bg-blue-600 mr-3"></span>
           Academic Honors
         </h2>
   
-        <div class="bg-white rounded-lg shadow-lg p-8 border-l-4 border-blue-600">
+        <div class="bg-white rounded-lg shadow-lg p-8 border-l-2 border-blue-600">
           <div class="flex items-start space-x-6">
             <div class="w-20 h-20 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
               <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -56,13 +56,13 @@
       <!-- Professional Certifications as Recognition -->
       <section class="mb-12">
         <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-          <span class="w-2 h-8 bg-green-600 mr-3"></span>
+          <span class="w-1 h-8 bg-green-600 mr-3"></span>
           Professional Certifications
         </h2>
   
         <div class="grid md:grid-cols-2 gap-6">
           <!-- AAT Certification -->
-          <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-green-600 hover:shadow-xl transition-shadow">
+          <div class="bg-white rounded-lg shadow-lg p-6 border-l-2 border-green-600 hover:shadow-xl transition-shadow">
             <div class="flex items-center space-x-4 mb-4">
               <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
                 <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -84,7 +84,7 @@
           </div>
   
           <!-- ACA (In Progress) -->
-          <div class="bg-white rounded-lg shadow-lg p-6 border-l-4 border-yellow-500 hover:shadow-xl transition-shadow">
+          <div class="bg-white rounded-lg shadow-lg p-6 border-l-2 border-yellow-500 hover:shadow-xl transition-shadow">
             <div class="flex items-center space-x-4 mb-4">
               <div class="w-16 h-16 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0">
                 <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -110,13 +110,13 @@
       <!-- Leadership & Service Recognition -->
       <section class="mb-12">
         <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-          <span class="w-2 h-8 bg-purple-600 mr-3"></span>
+          <span class="w-1 h-8 bg-purple-600 mr-3"></span>
           Leadership & Service Recognition
         </h2>
   
         <div class="space-y-6">
           <!-- Treasurer Role -->
-          <div class="bg-white rounded-lg shadow-lg p-8 border-l-4 border-purple-600">
+          <div class="bg-white rounded-lg shadow-lg p-8 border-l-2 border-purple-600">
             <div class="flex items-start space-x-6">
               <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
                 <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -159,7 +159,7 @@
           </div>
   
           <!-- Secretary Role -->
-          <div class="bg-white rounded-lg shadow-lg p-8 border-l-4 border-indigo-600">
+          <div class="bg-white rounded-lg shadow-lg p-8 border-l-2 border-indigo-600">
             <div class="flex items-start space-x-6">
               <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0">
                 <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -205,7 +205,7 @@
   
       <!-- Skills & Competency Recognition -->
       <section class="mb-12">
-        <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8 border-2 border-blue-200">
+        <div class="bg-white rounded-lg p-8 border-2 border-blue-200">
           <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Recognition of Excellence</h2>
           <p class="text-gray-700 leading-relaxed mb-6 text-center max-w-3xl mx-auto">
             Throughout my academic and professional journey, I've consistently demonstrated excellence in multiple areas. 

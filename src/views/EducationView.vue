@@ -11,11 +11,11 @@
       <!-- Current Education -->
       <div class="mb-8">
         <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-          <span class="w-2 h-8 bg-blue-600 mr-3"></span>
+          <span class="w-1 h-8 bg-blue-600 mr-3"></span>
           Current Education
         </h2>
   
-        <div class="bg-white rounded-lg shadow-lg p-8 border-l-4 border-blue-600">
+        <div class="bg-white rounded-lg shadow-lg p-8 border-l-2 border-blue-600">
           <div class="flex items-start space-x-6">
             <!-- School Logo/Icon -->
             <div class="w-20 h-20 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -110,11 +110,11 @@
       <!-- Completed Education -->
       <div class="mb-8">
         <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-          <span class="w-2 h-8 bg-green-600 mr-3"></span>
+          <span class="w-1 h-8 bg-green-600 mr-3"></span>
           Completed Education
         </h2>
   
-        <div class="bg-white rounded-lg shadow-lg p-8 border-l-4 border-green-600">
+        <div class="bg-white rounded-lg shadow-lg p-8 border-l-2 border-green-600">
           <div class="flex items-start space-x-6">
             <!-- School Logo/Icon -->
             <div class="w-20 h-20 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -207,7 +207,7 @@
       </div>
   
       <!-- Educational Philosophy -->
-      <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8 shadow-lg">
+      <div class="bg-gradient-to-r from-white-100 to-purple-50 rounded-lg p-8 shadow-lg">
         <h2 class="text-2xl font-bold text-gray-800 mb-4">My Educational Journey</h2>
         <p class="text-gray-700 leading-relaxed mb-4">
           My educational path reflects a strategic blend of financial expertise and technology-driven business analysis. 

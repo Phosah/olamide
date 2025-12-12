@@ -133,7 +133,7 @@
         <div class="flex flex-wrap gap-4 justify-center">
           <a 
             href="mailto:Olamide.Dada@georgebrown.ca" 
-            class="px-6 py-3 bg-white-100 text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-all"
+            class="px-6 py-3 bg-white-100 text-blue-600 rounded-lg font-semibold hover:bg-transparent transition-all hover:text-white-100 border border-white-100"
           >
             Email Me
           </a>

@@ -11,7 +11,7 @@
       <!-- Certifications Grid -->
       <div class="space-y-8">
         <!-- ACA Certification (In Progress) -->
-        <div class="bg-white rounded-lg shadow-lg p-8 border-l-4 border-yellow-500 hover:shadow-xl transition-shadow">
+        <div class="bg-white rounded-lg shadow-lg p-8 border-l-2 border-yellow-500 hover:shadow-xl transition-shadow">
           <div class="flex items-start space-x-6">
             <div class="w-24 h-24 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0">
               <svg class="w-12 h-12 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -92,7 +92,7 @@
         </div>
   
         <!-- AAT Certification (Completed) -->
-        <div class="bg-white rounded-lg shadow-lg p-8 border-l-4 border-green-600 hover:shadow-xl transition-shadow">
+        <div class="bg-white rounded-lg shadow-lg p-8 border-l-2 border-green-600 hover:shadow-xl transition-shadow">
           <div class="flex items-start space-x-6">
             <div class="w-24 h-24 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
               <svg class="w-12 h-12 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -175,7 +175,7 @@
       </div>
   
       <!-- Continuous Learning Section -->
-      <div class="mt-12 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8 shadow-lg">
+      <div class="mt-12 bg-gradient-to-r from-white-100 to-purple-50 rounded-lg p-8 shadow-lg">
         <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
           <svg class="w-8 h-8 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
@@ -220,15 +220,15 @@
           accounting background:
         </p>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div class="bg-purple-50 rounded-lg p-4 border border-purple-200">
+          <div class="bg-gradient-to-r from-white-100 to-purple-50 rounded-lg p-4 border border-purple-200">
             <h4 class="font-semibold text-gray-800 mb-2">CBAP®</h4>
             <p class="text-sm text-gray-600">Certified Business Analysis Professional</p>
           </div>
-          <div class="bg-purple-50 rounded-lg p-4 border border-purple-200">
+          <div class="bg-gradient-to-r from-white-100 to-purple-50 rounded-lg p-4 border border-purple-200">
             <h4 class="font-semibold text-gray-800 mb-2">PMI-PBA®</h4>
             <p class="text-sm text-gray-600">Professional in Business Analysis</p>
           </div>
-          <div class="bg-purple-50 rounded-lg p-4 border border-purple-200">
+          <div class="bg-gradient-to-r from-white-100 to-purple-50 rounded-lg p-4 border border-purple-200">
             <h4 class="font-semibold text-gray-800 mb-2">CSM®</h4>
             <p class="text-sm text-gray-600">Certified Scrum Master</p>
           </div>
@@ -241,7 +241,7 @@
         <p class="mb-6">Official certification documents available for verification</p>
         <RouterLink 
           to="/transcripts" 
-          class="inline-block px-6 py-3 bg-white-100 text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-all"
+          class="inline-block px-6 py-3 bg-white-100 text-blue-600 rounded-lg font-semibold hover:bg-transparent hover:text-white-100 border border-white-100 transition-all"
         >
           View All Documents
         </RouterLink>
